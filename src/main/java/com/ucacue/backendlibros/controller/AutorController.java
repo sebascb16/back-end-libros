@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 @Controller
+@CrossOrigin(origins="*")
 @RestController
 @RequestMapping("/api")
 public class AutorController {
