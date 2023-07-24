@@ -7,7 +7,7 @@ import javax.persistence.*;
 @Data
 @Entity
 @Inheritance(strategy = InheritanceType.SINGLE_TABLE)
-@DiscriminatorColumn(name="tipo")
+
 public abstract class Persona {
 
     @Id
