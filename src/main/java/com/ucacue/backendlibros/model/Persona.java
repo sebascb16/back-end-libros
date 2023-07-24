@@ -7,7 +7,6 @@ import javax.persistence.*;
 @Data
 @Entity
 @Inheritance(strategy = InheritanceType.SINGLE_TABLE)
-
 public abstract class Persona {
 
     @Id
